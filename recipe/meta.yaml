@@ -1,6 +1,6 @@
 {% set name = "randomcolor" %}
-{% set version = "0.4.4.4" %}
-{% set sha256 = "71f6e47771433c317cb3db5746354468916fce1fe93557a604c9a6de32f114b5" %}
+{% set version = "0.4.4.5" %}
+{% set sha256 = "f02968d9bf8d78c13858c24e5715f38f479bd7e1183fb0413c3944d5215fed62" %}
 
 package:
   name: {{ name }}
