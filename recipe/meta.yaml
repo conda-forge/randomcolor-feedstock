@@ -1,6 +1,6 @@
 {% set name = "randomcolor" %}
-{% set version = "0.4.4.5" %}
-{% set sha256 = "f02968d9bf8d78c13858c24e5715f38f479bd7e1183fb0413c3944d5215fed62" %}
+{% set version = "0.4.4.6" %}
+{% set sha256 = "d2b66f07ea8606aee55b648aed82e810964bbd3f6dfba0e6d57818761d437c93" %}
 
 package:
   name: {{ name }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1003
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
