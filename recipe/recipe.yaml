@@ -28,9 +28,7 @@ tests:
       imports:
         - randomcolor
       python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - python ${{ python_min }}.*
+
 about:
   license: MIT
   license_file: LICENSE
